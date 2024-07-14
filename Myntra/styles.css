@@ -1,0 +1,238 @@
+/* Myntra :UI */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+.myntra_home {
+    height: 45px;
+}
+
+.logo_container {
+    margin-left: 4%;
+}
+
+.action_bar {
+    margin-right: 4%;
+}
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+
+#nav_bar_new {
+    padding: 21px 0px;
+}
+
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 27px 0;
+    border-bottom: 5px solid #ffffff;
+}
+
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav_bar a sup {
+    color: #ff3f6c;
+    font-size: 2px;
+}
+
+.search_bar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    margin: inherit;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bag-item-count {
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* avtar */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+.try {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.try img {
+    /* flex: 0 0 11.11%; */
+    flex: 3;
+    box-sizing: border-box;
+    margin: 500px;
+
+}
+
+.left-panel {
+    flex: 1;
+    /* padding: 20px; */
+    text-align: center;
+
+    overflow-y: auto;
+    max-height: 640px;
+
+}
+
+.bottom,
+.top,
+.dress {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.bottom img,
+.top img,
+.dress img {
+
+    padding: 15px;
+    margin: 0px 40px;
+
+}
+
+.right-panel {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.left-panel {
+    border-right: 1px solid #ccc;
+}
+
+.clothing-item {
+    width: 150px;
+    height: 250px;
+    /* margin: 10px; */
+    cursor: pointer;
+}
+
+.avatar-container {
+
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.avatar-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#avatar {
+    width: 200px;
+    height: 400px;
+    align-items: center;
+    margin: 60px 143px;
+}
+
+#outfit {
+    width: 500px;
+    height: 410px;
+    align-items: center;
+
+    margin: 50px;
+
+}
+
+#submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
